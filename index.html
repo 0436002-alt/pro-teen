@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pro-Teen | Planning App for the Modern Teen</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">Pro‑Teen</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#download">Download</a>
+    </nav>
+    <button class="nav-cta">Get Started</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Plan your life, your way.</h1>
+        <p>Pro‑Teen is the planning app built for real teen life—school, friends, hobbies, and mental wellness all in one place.</p>
+        <div class="hero-actions">
+          <button class="primary-btn">Start Free</button>
+          <button class="secondary-btn">Watch Demo</button>
+        </div>
+        <p class="hero-subtext">No credit card. Just vibes and productivity.</p>
+      </div>
+
+      <div class="hero-mockup">
+        <div class="mockup-card">
+          <h3>Today</h3>
+          <ul>
+            <li><span class="tag school">School</span> Math test – 9:30 AM</li>
+            <li><span class="tag hobby">Hobby</span> Guitar practice – 4:00 PM</li>
+            <li><span class="tag self">Self</span> Journal & mood check – 9:00 PM</li>
+          </ul>
+        </div>
+
+        <div class="mockup-card secondary">
+          <h3>Weekly Focus</h3>
+          <p>Finish history project · 3 workouts · 2 social hangouts</p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 60%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Built for the modern teen</h2>
+      <p class="section-subtitle">Not your parents’ planner. Pro‑Teen is designed around how you actually live.</p>
+
+      <div class="feature-grid">
+        <div class="feature-card"><h3>Smart scheduling</h3><p>Auto‑organize school, clubs, sports, and life into one clean calendar.</p></div>
+        <div class="feature-card"><h3>Goal tracking</h3><p>Turn big dreams into tiny steps with streaks and milestones.</p></div>
+        <div class="feature-card"><h3>Study mode</h3><p>Focus timers and assignment tracking to keep you in the zone.</p></div>
+        <div class="feature-card"><h3>Mood & wellness</h3><p>Daily check‑ins to spot patterns and avoid burnout.</p></div>
+        <div class="feature-card"><h3>Collaboration</h3><p>Plan group projects and share tasks with friends.</p></div>
+        <div class="feature-card"><h3>Custom vibes</h3><p>Themes and widgets that match your aesthetic.</p></div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how">
+      <h2>How Pro‑Teen fits into your day</h2>
+      <div class="steps">
+        <div class="step"><span class="step-number">1</span><h3>Set your week</h3><p>Add classes, activities, and goals fast.</p></div>
+        <div class="step"><span class="step-number">2</span><h3>Stay on track</h3><p>Get gentle reminders, not spam.</p></div>
+        <div class="step"><span class="step-number">3</span><h3>Reflect & reset</h3><p>End your day with a quick check‑in.</p></div>
+      </div>
+    </section>
+
+    <section id="download" class="download">
+      <div class="download-content">
+        <h2>Ready to level up your planning?</h2>
+        <p>Join the early access list and be one of the first to try Pro‑Teen.</p>
+
+        <form class="waitlist-form" id="waitlist-form">
+          <input type="email" id="email" placeholder="Enter your email" required />
+          <button type="submit" class="primary-btn">Join waitlist</button>
+        </form>
+
+        <p class="form-message" id="form-message"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Pro‑Teen. Built for the modern teen.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
